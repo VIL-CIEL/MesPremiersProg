@@ -1,5 +1,10 @@
-// TPGitVS.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
-//
+/*
+* TPGitVS.cpp : Ce fichier contient la fonction 'main'.L'exécution du programme commence et se termine à cet endroit.
+* 
+* 
+* Menu de différentes programmes
+* 
+*/
 
 #include <iostream>
 
@@ -10,10 +15,17 @@ int table_ascii();
 int taille_var();
 int jeu_devi();
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
+/*
+Pseudo code :
+initialise choix en int et initialise lock en int a 1
+Message de bienvenue
+Demande de programme avec choix
+plusieurs if qui donne le programme en fonction de la variable choix
+demande si on recommence le programme ou non avec lock
+while avec lock
+*/
+int main(){
+    return 0;
 }
 
 int abonnement_tel() {
