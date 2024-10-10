@@ -161,3 +161,11 @@ int jeu_devi() {
     } while (user != val);
     return 0;
 }
+
+int verification(int choix) {
+
+    if (choix != 1 && choix != 2 && choix != 3 && choix != 4 && choix != 5 && choix != 6)
+        return 1;
+    return 0;
+
+}

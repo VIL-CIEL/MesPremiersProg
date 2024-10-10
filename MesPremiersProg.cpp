@@ -30,7 +30,7 @@ int main(){
         do {
             std::cout << "Merci de rentrer le numéro correspondant au programme voulu : ";
             std::cin >> choix;
-        } while (choix != 1 && choix != 2 && choix != 3 && choix != 4 && choix != 5 && choix != 6);
+        } while (verification(choix));
 
         if (choix == 1) {
             std::cout << "Vous avez choisi : Abonnement-Telephone\n\n";

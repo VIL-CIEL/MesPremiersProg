@@ -6,3 +6,4 @@ int recherche_ASCII();
 int table_ascii();
 int taille_var();
 int jeu_devi();
+int verification(int choix);
